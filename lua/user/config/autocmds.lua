@@ -1,0 +1,9 @@
+-- setting indent size for some special files
+-- vim.api.nvim_create_autocmd("BufRead", {
+-- 	group = vim.api.nvim_create_augroup("IndentSize2", { clear = false }),
+-- 	pattern = {},
+-- 	callback = function()
+-- 		vim.opt_local.tabstop = 4
+-- 		vim.opt_local.shiftwidth = 4
+-- 	end,
+-- })
